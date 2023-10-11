@@ -1,0 +1,203 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 200px;
+}
+
+label {
+    font-weight: bold;
+}
+nav {
+    display: flex
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li {
+    margin-right: 0px;
+}
+
+nav ul li:last-child {
+    margin: right 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+.top-header {
+    background-color: #CF000F;
+    color: #CF000F;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: inline-flexbox;
+}
+
+.top-nav ul li {
+    margin-right: 20px;
+}
+
+.top-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.services {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
